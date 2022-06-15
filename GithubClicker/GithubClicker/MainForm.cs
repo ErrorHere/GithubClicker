@@ -46,7 +46,7 @@ namespace GithubClicker
 
         #region Set binds
         private int leftBind = 0;
-        private void btBindLeft_Click(object sender, EventArgs e) => btBindLeft.Text = "[...]";
+        private void btBindLeft_Click(object sender, EventArgs e) => btBindLeft.Text = "[Press a key]";
 
         private void btBindLeft_KeyDown(object sender, KeyEventArgs e)
         {
